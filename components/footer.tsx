@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <>
       <div className="w-full h-[550px] md:h-96 flex flex-col justify-center items-center">
-        <div className="flex flex-col items-center md:items-center md:flex-row justify-evenly bg-[#FFEF54] w-full h-[90%] md:h-[80%]">
+        <div className="flex flex-col items-center md:items-center md:flex-row justify-evenly bg-[#FFEF54] w-full h-[480px] md:h-[80%]">
           <div className="w-[85%] md:w-[20%] lg:w-[20%] h-[100px] md:h-full">
           <a
           className="inline-flex items-center h-full md:h-[50%] w-[30%] md:w-full"
@@ -23,7 +23,7 @@ export const Footer = () => {
         </a>
 
           </div>
-          <div className="w-[85%] md:w-[35%] xl:w-[30%] h-[200px] md:h-full flex items-center">
+          <div className="w-[85%] md:w-[35%] xl:w-[30%] h-[180px] md:h-full flex items-center">
             <div className="w-[40%] h-full md:h-[80%] flex flex-col">
               <p className="text-[#001145] font-semibold md:text-[20px] pb-2 md:pb-4">Company</p>
               <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">About Us</a>
@@ -47,7 +47,7 @@ export const Footer = () => {
 
 
           </div>
-          <div className="w-[85%] md:w-[30%] xl:w-[25%] h-[250px] md:h-full flex items-center">
+          <div className="w-[85%] md:w-[30%] xl:w-[25%] h-[200px] md:h-full flex items-center">
           <div className="w-full h-full md:h-[80%]">
           <p className="text-[#001145] font-semibold md:text-[20px] pb-4">Stay Connected</p>
           <input type="text" className=" h-10 md:h-12 w-[85%] rounded-[8px] pl-5 text-xs md:text-sm mb-2 md:mb-4" placeholder="Input your email address" />
@@ -69,7 +69,7 @@ export const Footer = () => {
           </div>
           
         </div>
-        <div className=" h-[10%] md:h-[20%] bg-[#001145] lg:pl-32 w-full flex justify-center lg:justify-start items-center">
+        <div className=" h-[70px] md:h-[20%] bg-[#001145] lg:pl-32 w-full flex justify-center lg:justify-start items-center">
           <div className="h-[50%] flex justify-center items-center">
             <p className="text-[10px] lg:text-xs text-center text-[#CECECE]">
               Copyright © [2024] • Wakaboy Express •
