@@ -1,14 +1,13 @@
 "use client";
 
 import Waitlistbutton2 from "./waitlist_btn2";
-import Waitlistbutton from "./waitlist_btn2";
 
 // import { Mail, MapPin, Smartphone } from "lucide-react";
 
 export const Footer = () => {
   return (
     <>
-      <div className="w-full h-[550px] md:h-96 flex flex-col justify-center items-center">
+      <div className="w-full h-[550px] md:h-[450px] flex flex-col justify-center items-center pt-5 md:pt-10 bg-[#FFEF54]">
         <div className="flex flex-col items-center md:items-center md:flex-row justify-evenly bg-[#FFEF54] w-full h-[480px] md:h-[80%]">
           <div className="w-[85%] md:w-[20%] lg:w-[20%] h-[100px] md:h-full">
           <a
