@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-[#FFFFFF] h-[90vh] md:h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
+      <div className="bg-[#FFFFFF] min-h-[90vh] md:min-h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
         <div className="h-[15%] md:h-[10%] w-full flex justify-center items-center">
           <p className=" text-center lg:text-left text-[30px] text-[#001145] md:text-[47px] md:leading-[56px] font-semibold">
             Seamless Delivery Services
@@ -129,8 +129,21 @@ export default function Home() {
           </div>
         </div> 
       </div>
-      <div className="bg-gradient-to-r from-[#001145] to-[#FFEF54] h-[85vh] md:h-[40vh] lg:h-[75vh] xl:h-[100vh] w-full flex flex-col md:flex-row">
-        <div className="w-full h-[50%] md:w-[50%] md:h-full">
+      <div className="bg-gradient-to-r from-[#001145] via-[#87874D] to-[#FFEF54] h-[80vh] md:h-[40vh] lg:h-[75vh] xl:h-[100vh] w-full flex flex-col md:flex-row">
+        <div className="w-full h-[50%] md:w-[50%] md:h-full flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-between w-[90%] lg:w-[80%] xl:w-[85%] h-[65%] md:h-[60%] lg:h-[40%]">
+          <p className=" text-center md:text-left text-[30px] md:text-[35px] xl:text-[50px] xl:leading-[56px] font-semibold">
+          Get notified when our app launches
+          </p>
+          <div className="w-full h-[50px] md:h-[55px] xl:h-[64px] flex">
+            <input
+              type="text"
+              placeholder="Input your email address"
+              className=" rounded-l-[8px] pl-5 text-[11px] md:text-[15px] w-[70%] h-full"
+            />
+            <Waitlistbutton3 />
+          </div>
+        </div>
 
         </div>
         <div className="w-full h-[50%] md:w-[50%] md:h-full flex justify-center items-center">
