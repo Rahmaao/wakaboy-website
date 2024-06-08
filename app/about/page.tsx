@@ -3,7 +3,7 @@ export default function AboutPage() {
     <section id="about" className=" bg-[#FFFFFF] w-full min-h-[100vh] pb-10">
       <div
         className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh]  flex justify-center items-center w-full bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/about.png')" }}
+        style={{ backgroundImage: "url('/about.svg')" }}
       >
         <div className="w-[80%] h-[40%] md:min-w-[400px] md:h-[125px] flex flex-col justify-around items-center">
           <p className=" text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
