@@ -25,21 +25,21 @@ export const Footer = () => {
           <div className="w-[85%] md:w-[35%] xl:w-[30%] h-[180px] md:h-full flex items-center">
             <div className="w-[40%] h-full md:h-[80%] flex flex-col">
               <p className="text-[#001145] font-semibold md:text-[20px] pb-2 md:pb-4">Company</p>
-              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">About Us</a>
-              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">Services</a>
+              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="/about">About Us</a>
+              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="/delivery_services">Services</a>
 
-              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">Contact</a>
+              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="/contact">Contact</a>
 
             </div>
             <div className=" w-[60%] h-full md:h-[80%] flex flex-col">
               <p className="text-[#001145] font-semibold md:text-[20px] pb-2 md:pb-4">Deliveries</p>
-              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">E-Commerce Support</a>
-              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">Supply Chain Management</a>
+              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="/delivery_services">E-Commerce Support</a>
+              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="/delivery_services">Supply Chain Management</a>
 
-              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">Multiple Deliveries</a>
-              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">Scheduled pickup</a>
+              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="/delivery_services">Multiple Deliveries</a>
+              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="/delivery_services">Scheduled pickup</a>
 
-              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="">Distribution</a>
+              <a className="text-[#001145] text-sm lg:text-[16px] pb-1 md:pb-2" href="/delivery_services">Distribution</a>
 
 
             </div>
@@ -49,7 +49,7 @@ export const Footer = () => {
           <div className="w-[85%] md:w-[30%] xl:w-[25%] h-[200px] md:h-full flex items-center">
           <div className="w-full h-full md:h-[80%]">
           <p className="text-[#001145] font-semibold md:text-[20px] pb-4">Stay Connected</p>
-          <input type="text" className=" h-10 md:h-12 w-[85%] rounded-[8px] pl-5 text-xs md:text-sm mb-2 md:mb-4" placeholder="Input your email address" />
+          <input type="text" className=" text-[#001145] h-10 md:h-12 w-[85%] rounded-[8px] pl-5 text-xs md:text-sm mb-2 md:mb-4" placeholder="Input your email address" />
           <Waitlistbutton2/>
           <div className="w-[55%] md:w-[70%] lg:w-[60%] h-[20%] mt-4 flex justify-between items-center">
             <a href=""><img src="/fb.svg" className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>

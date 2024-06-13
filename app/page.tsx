@@ -23,7 +23,7 @@ export default function Home() {
             <input
               type="text"
               placeholder="Input your email address"
-              className=" rounded-l-[8px] pl-5 text-[11px] md:text-[15px] w-[70%] h-full"
+              className="text-[#001145] rounded-l-[8px] pl-5 text-[11px] md:text-[15px] w-[70%] h-full"
             />
             <Waitlistbutton3 />
           </div>
@@ -139,7 +139,7 @@ export default function Home() {
             <input
               type="text"
               placeholder="Input your email address"
-              className=" rounded-l-[8px] pl-5 text-[11px] md:text-[15px] w-[70%] h-full"
+              className="text-[#001145] rounded-l-[8px] pl-5 text-[11px] md:text-[15px] w-[70%] h-full"
             />
             <Waitlistbutton3 />
           </div>

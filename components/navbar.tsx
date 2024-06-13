@@ -31,7 +31,7 @@ export const Navbar = () => {
       >
         <a
           className="inline-flex items-center lg:pl-0 h-[90%] w-[50%] md:w-[30%] lg:w-[15%]"
-          href="#"
+          href="/"
         >
           <img
             src="/wakaboy.png"
