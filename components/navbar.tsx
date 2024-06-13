@@ -18,10 +18,10 @@ export const Navbar = () => {
   };
 
   const navbarItems = [
-    { url: "#home", text: "Home" },
-    { url: "#about", text: "About Us" },
-    { url: "#services", text: "Services" },
-    { url: "#contact", text: "Contact Us" },
+    { url: "/", text: "Home" },
+    { url: "/about", text: "About Us" },
+    { url: "/delivery_services", text: "Services" },
+    { url: "/contact", text: "Contact Us" },
   ];
 
   return (

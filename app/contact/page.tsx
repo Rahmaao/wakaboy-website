@@ -14,8 +14,8 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-      <div className="h-[120vh] md:h-[80vh] lg:h-[120vh] flex flex-col justify-around py-5 md:py-10">
-        <div className="w-full h-[25%] md:h-[20%] lg:h-[25%] flex flex-col justify-evenly items-center">
+      <div className="h-[140vh] md:h-[95vh] lg:h-[135vh] flex flex-col justify-around py-5 md:py-10">
+        <div className="w-full h-[15%] md:h-[20%] lg:h-[25%] flex flex-col justify-evenly items-center">
           <p className="text-center text-[#001145] text-[25px] md:text-[40px] xl:text-[47px] md:leading-[56px] font-semibold">
             We are here to serve You!
           </p>
@@ -30,9 +30,9 @@ export default function AboutPage() {
             here to help{" "}
           </p>
         </div>
-        <div className=" w-full h-[70%] md:h-[65%] flex justify-center items-center">
-          <div className="w-[90%] xl:w-[75%] h-full xl:h-[80%] flex flex-col justify-around">
-            <div className="w-full h-[30%] md:h-[20%] flex flex-col md:flex-row justify-between">
+        <div className=" w-full h-[80%] md:h-[65%] flex justify-center items-center">
+          <form className="w-[90%] xl:w-[75%] h-full xl:h-[100%] flex flex-col justify-around">
+            <div className="w-full h-[25%] md:h-[20%] flex flex-col md:flex-row justify-between">
               <div className="w-full md:w-[48%] h-[45%] md:h-[50%] flex flex-col justify-between">
                 <label
                   className="block font-semibold text-sm md:text-lg text-[#000925]"
@@ -61,7 +61,7 @@ export default function AboutPage() {
                 />
               </div>
             </div>
-            <div className="w-full h-[30%] md:h-[20%] flex flex-col md:flex-row justify-between">
+            <div className="w-full h-[25%] md:h-[20%] flex flex-col md:flex-row justify-between">
               <div className="w-full md:w-[48%] h-[45%] md:h-[50%] flex flex-col justify-between">
                 <label
                   className="block font-semibold text-sm md:text-lg text-[#000925]"
@@ -89,7 +89,7 @@ export default function AboutPage() {
                 />
               </div>
             </div>
-            <div className="w-full h-[30%] md:h-[40%] flex flex-col justify-end">
+            <div className="w-full h-[25%] md:h-[40%] flex flex-col justify-end">
               <label
                 className="block font-semibold text-sm md:text-lg text-[#000925] mb-3"
                 htmlFor="input-field"
@@ -104,7 +104,12 @@ export default function AboutPage() {
                 style={{ resize: "none", fontSize: "16px" }}
               ></textarea>
             </div>
-          </div>
+            <div className="h-[10%] md:h-[20%] flex items-end">
+          <a href="#" className="text-[#FFEF54] font-medium text-xs lg:text-sm flex items-center justify-center h-11 w-20 md:h-[40px] xl:h-[45px] md:w-[100px] bg-[#001145] hover:bg-[#FFEF54] hover:border hover:text-[#001145] hover:border-[#001145] rounded-[8px] shadow-md">
+            Send
+          </a>
+        </div>
+          </form>
         </div>
       </div>
     </section>

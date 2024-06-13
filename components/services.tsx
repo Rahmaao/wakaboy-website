@@ -2,7 +2,7 @@
 
 const ServicesCard = ({ headertext, text, img }) => {
   return (
-    <a href="">
+    <a href="/delivery_services">
     <div
       className="hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] w-[150px] md:w-[100%] xl:w-[386px] h-[180px] md:h-[250px] lg:h-[286px] md:pt-5 bg-center bg-no-repeat flex flex-col justify-evenly rounded-lg border border-[#0000001A] items-center bg-[#FFFFFF]"    >
       <div
