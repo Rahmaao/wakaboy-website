@@ -1,3 +1,5 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -13,7 +15,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        grotesque: ['grotesque', 'sans-serif'], // Add your custom font here
+        grotesque: ['var(--font-grotesque)', ...fontFamily.sans],
       },
     },
   },

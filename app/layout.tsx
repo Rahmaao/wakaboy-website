@@ -1,10 +1,16 @@
 import { Inter } from "next/font/google";
+import CustomFont from 'next/font/local';
 import Head from "next/head";
 import "./globals.css";
 import { Navbar } from "../components/navbar";
 import { Footer } from "../components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const grotesque = CustomFont({
+  src: '../public/fonts/ESRebondGrotesqueTRIAL-Regular-BF66189040b697b.otf',
+  variable: '--font-grotesque',
+})
 
 export const metadata = {
   title: "Wakaboy Express",
@@ -24,8 +30,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <body className={inter.className}>
-        <Navbar />
+      <body className={`${grotesque.variable}`}>
+        <Navbar/>
         {children}
         <Footer />
       </body>
