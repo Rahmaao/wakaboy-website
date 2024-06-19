@@ -2,14 +2,14 @@ export default function AboutPage() {
   return (
     <section
       id="about"
-      className=" bg-[#FFFFFF] w-full min-h-[200vh] md:min-h-[135vh] lg:min-h-[250vh]"
+      className="bg-[#FFFFFF] w-full min-h-[200vh] md:min-h-[135vh] lg:min-h-[250vh]"
     >
       <div
-        className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh]  flex justify-center items-center w-full bg-cover bg-center bg-no-repeat"
+        className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh] flex justify-center items-center w-full bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/services.svg')" }}
       >
         <div className="w-[80%] h-[40%] md:min-w-[400px] md:h-[125px] flex flex-col justify-around items-center">
-          <p className=" text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
+          <p className="text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
             Services
           </p>
           <p className="hidden md:block text-center text-[16px] md:text-[18px]">
@@ -38,7 +38,7 @@ export default function AboutPage() {
                   effective and reliable logistics are essential for successful
                   E-commerce. <br />
                   <br />
-                  Whether you're an online retailer, B2B, B2C, C2C, or
+                  Whether you&apos;re an online retailer, B2B, B2C, C2C, or
                   multichannel seller, we provide customized delivery solutions
                   to help you achieve your goals.
                 </p>
@@ -69,7 +69,7 @@ export default function AboutPage() {
                   Our efficient logistics network ensures that your parcels
                   reach their destination on time, every time. Trust us to
                   provide a seamless and speedy delivery experience that meets
-                  your urgent needs.{" "}
+                  your urgent needs.
                 </p>
               </div>
               <div>
@@ -93,7 +93,7 @@ export default function AboutPage() {
                   We provide end-to-end supply chain management solutions,
                   including demand planning, procurement, logistics
                   coordination, and inventory optimization, to streamline
-                  operations and improve efficiency for B2B clients.{" "}
+                  operations and improve efficiency for B2B clients.
                 </p>
               </div>
               <div>
@@ -115,11 +115,10 @@ export default function AboutPage() {
               <div className="pb-5">
                 <p className="text-sm md:text-base lg:text-lg text-[#000000]">
                   Our scheduled pickup service offers convenient and reliable
-                  collection at a time that suits you.
-                  <br /> <br />
+                  collection at a time that suits you. <br /> <br />
                   Whether for business or personal needs, our team will collect
                   your packages from your location and ensure prompt delivery.
-                  Simplify your logistics with our flexible pickup options.{" "}
+                  Simplify your logistics with our flexible pickup options.
                 </p>
               </div>
               <div>
@@ -140,10 +139,9 @@ export default function AboutPage() {
               <div className="pb-5">
                 <p className="text-sm md:text-base lg:text-lg text-[#000000]">
                   We provide secure storage, advanced inventory management, and
-                  efficient distribution services. <br />
-                  <br />
+                  efficient distribution services. <br /> <br />
                   Our comprehensive solutions streamline your supply chain,
-                  reduce costs, and ensure timely delivery to various locations.{" "}
+                  reduce costs, and ensure timely delivery to various locations.
                 </p>
               </div>
               <div>

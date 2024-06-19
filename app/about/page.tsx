@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function AboutPage() {
   return (
     <section id="about" className=" bg-[#FFFFFF] w-full min-h-[100vh] pb-10">
@@ -29,7 +31,7 @@ export default function AboutPage() {
               <br /> <br />
               At Wakaboy Express, we are committed to excellence and
               adaptability, providing tailored solutions that enhance
-              operational efficiency and customer satisfaction. Whether you're a
+              operational efficiency and customer satisfaction. Whether you&apos;re a
               small business or a larger enterprise, our innovative logistics
               support is designed to help your business thrive. Trust Wakaboy
               Express to deliver the logistical reliability your business needs
@@ -37,7 +39,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="w-[40%] h-full flex justify-end items-center">
-            <img src="/rectangle.svg" alt="" />
+            <Image src="/rectangle.svg" alt="" width={500} height={300} />
           </div>
         </div>
         <div className="min-h-[95vh] flex md:hidden justify-center items-center">
@@ -51,10 +53,12 @@ export default function AboutPage() {
                   face in finding reliable logistics partners.
                 </p>
               </div>
-              <img
+              <Image
                 src="/box.png"
                 alt="Description"
-                className="w-[50%] h-[50%] ml-4 rounded-lg pt-10"
+                width={500}
+                height={500}
+                className="ml-4 rounded-lg pt-10"
               />
             </div>
             <p className="text-[#001145]">
@@ -62,7 +66,7 @@ export default function AboutPage() {
               logistics solutions to businesses of all sizes. <br /> <br /> At
               Wakaboy Express, we are committed to excellence and adaptability,
               providing tailored solutions that enhance operational efficiency
-              and customer satisfaction. Whether you're a small business or a
+              and customer satisfaction. Whether you&apos;re a small business or a
               larger enterprise, our innovative logistics support is designed to
               help your business thrive. Trust Wakaboy Express to deliver the
               logistical reliability your business needs to succeed.

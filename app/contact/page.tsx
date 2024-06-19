@@ -1,8 +1,8 @@
-export default function AboutPage() {
+export default function ContactPage() {
   return (
-    <section id="about" className=" bg-[#FFFFFF] w-full min-h-[100vh]">
+    <section id="contact" className=" bg-[#FFFFFF] w-full min-h-[100vh]">
       <div
-        className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh]  flex justify-center items-center w-full bg-cover bg-center bg-no-repeat"
+        className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh] flex justify-center items-center w-full bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/contact.svg')" }}
       >
         <div className="w-[80%] h-[40%] md:min-w-[400px] md:h-[125px] flex flex-col justify-around items-center">
@@ -20,12 +20,12 @@ export default function AboutPage() {
             We are here to serve You!
           </p>
           <p className="hidden md:block w-[95%] text-[#010417] lg:leading-[28px] text-center md:text-[15px] lg:text-[18px] xl:text-[21px]">
-            We'd love to hear from you! Whether you have a question, need
+            We&apos;d love to hear from you! Whether you have a question, need
             assistance, <br /> or want to learn more about our services, our
             team is here to help{" "}
           </p>
           <p className="block md:hidden w-[95%] text-[#010417] text-center">
-            We'd love to hear from you! Whether you have a question, need
+            We&apos;d love to hear from you! Whether you have a question, need
             assistance, or want to learn more about our services, our team is
             here to help{" "}
           </p>
@@ -36,13 +36,13 @@ export default function AboutPage() {
               <div className="w-full md:w-[48%] h-[45%] md:h-[50%] flex flex-col justify-between">
                 <label
                   className="block font-semibold text-sm md:text-lg text-[#000925]"
-                  htmlFor="input-field"
+                  htmlFor="first-name"
                 >
                   First Name
                 </label>
                 <input
                   type="text"
-                  id="input-field"
+                  id="first-name"
                   className=" text-[#000925] pl-3 appearance-none rounded-[5px] border-2 border-gray-300 w-full py-2 leading-tight focus:outline-none focus:border-[#000925] caret-[#000925]"
                 />
               </div>
@@ -50,13 +50,13 @@ export default function AboutPage() {
               <div className="w-full md:w-[48%] h-[45%] md:h-[50%] flex flex-col justify-between">
                 <label
                   className="block font-semibold text-sm md:text-lg text-[#000925]"
-                  htmlFor="input-field"
+                  htmlFor="business-name"
                 >
                   Business Name
                 </label>
                 <input
                   type="text"
-                  id="input-field"
+                  id="business-name"
                   className="text-[#000925] pl-3 appearance-none rounded-[5px] border-2 border-gray-300 w-full py-2 leading-tight focus:outline-none focus:border-[#000925] caret-[#000925]"
                 />
               </div>
@@ -65,26 +65,26 @@ export default function AboutPage() {
               <div className="w-full md:w-[48%] h-[45%] md:h-[50%] flex flex-col justify-between">
                 <label
                   className="block font-semibold text-sm md:text-lg text-[#000925]"
-                  htmlFor="input-field"
+                  htmlFor="email"
                 >
                   Email
                 </label>
                 <input
                   type="text"
-                  id="input-field"
+                  id="email"
                   className=" pl-3 appearance-none rounded-[5px] border-2 text-[#000925] border-gray-300 w-full py-2 leading-tight focus:outline-none focus:border-[#000925] caret-[#000925]"
                 />
               </div>
               <div className="w-full md:w-[48%] h-[45%] md:h-[50%] flex flex-col justify-between">
                 <label
                   className="block font-semibold text-sm md:text-lg text-[#000925]"
-                  htmlFor="input-field"
+                  htmlFor="phone-number"
                 >
                   Phone Number
                 </label>
                 <input
                   type="text"
-                  id="input-field"
+                  id="phone-number"
                   className=" pl-3 appearance-none rounded-[5px] border-2 text-[#000925] border-gray-300 w-full py-2 leading-tight focus:outline-none focus:border-[#000925] caret-[#000925]"
                 />
               </div>
@@ -92,23 +92,25 @@ export default function AboutPage() {
             <div className="w-full h-[25%] md:h-[40%] flex flex-col justify-end">
               <label
                 className="block font-semibold text-sm md:text-lg text-[#000925] mb-3"
-                htmlFor="input-field"
+                htmlFor="message"
               >
                 What can we do for you?
               </label>
               <textarea
-                id="input-field"
+                id="message"
                 className="input-field rounded-[5px] border-2 text-[#000925] border-gray-300 w-full py-3 px-4 leading-tight focus:outline-none focus:border-[#000925] caret-[#000925]"
-                
                 rows={6}
                 style={{ resize: "none", fontSize: "16px" }}
               ></textarea>
             </div>
             <div className="h-[10%] md:h-[20%] flex items-end">
-          <a href="#" className="text-[#FFEF54] font-medium text-xs lg:text-sm flex items-center justify-center h-11 w-20 md:h-[40px] xl:h-[45px] md:w-[100px] bg-[#001145] hover:bg-[#FFEF54] hover:border hover:text-[#001145] hover:border-[#001145] rounded-[8px] shadow-md">
-            Send
-          </a>
-        </div>
+              <a
+                href="#"
+                className="text-[#FFEF54] font-medium text-xs lg:text-sm flex items-center justify-center h-11 w-20 md:h-[40px] xl:h-[45px] md:w-[100px] bg-[#001145] hover:bg-[#FFEF54] hover:border hover:text-[#001145] hover:border-[#001145] rounded-[8px] shadow-md"
+              >
+                Send
+              </a>
+            </div>
           </form>
         </div>
       </div>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Waitlistbutton from "./waitlist_btn";
+import Image from "next/image";
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -33,9 +34,16 @@ export const Navbar = () => {
           className="inline-flex items-center lg:pl-0 h-[90%] w-[50%] md:w-[30%] lg:w-[15%]"
           href="/"
         >
-          <img
+          {/* <img
             src="/wakaboy.png"
             alt="Logo"
+            className="object-cover md:w-[300px] md:h-[300px] lg:w-[250px] lg:h-[250px] xl:w-[300px] xl:h-[300px]"
+          /> */}
+          <Image
+            src="/wakaboy.png"
+            alt="Logo"
+            width={400}
+            height={400}
             className="object-cover md:w-[300px] md:h-[300px] lg:w-[250px] lg:h-[250px] xl:w-[300px] xl:h-[300px]"
           />
         </a>
