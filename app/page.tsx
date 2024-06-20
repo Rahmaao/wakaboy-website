@@ -37,13 +37,25 @@ export default function Home() {
       <div className="bg-[#001145] h-[35vh] md:h-[20vh] lg:h-[30vh] w-full md:flex">
         <div className="w-full md:w-[50%] h-[50%] md:h-full flex justify-around items-center">
           <div className="w-[40%] md:w-[48%] lg:w-[40%] xl:w-[30%] h-[90%] md:h-[75%] flex flex-col justify-evenly items-center">
-            <Image src="/clock.png" alt="Clock icon" width={40} height={40} style={{ width: "40px", height: "40px" }} />
+            <Image
+              src="/clock.png"
+              alt="Clock icon"
+              width={40}
+              height={40}
+              style={{ width: "40px", height: "40px" }}
+            />
             <p className="text-[15px] md:text-lg xl:text-2xl text-center">
               24/7 Customer <br /> Service
             </p>
           </div>
           <div className="w-[40%] md:w-[48%] lg:w-[40%] xl:w-[30%] h-[90%] md:h-[75%] flex flex-col justify-evenly items-center">
-            <Image src="/star.png" alt="Star icon" width={40} height={40} style={{ width: "40px", height: "40px" }} />
+            <Image
+              src="/star.png"
+              alt="Star icon"
+              width={40}
+              height={40}
+              style={{ width: "40px", height: "40px" }}
+            />
             <p className="text-[15px] md:text-lg xl:text-2xl text-center">
               99% On-Time <br /> Delivery Rate
             </p>
@@ -82,7 +94,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-[#FFFFFF] min-h-[90vh] md:min-h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
+      {/* <div className="bg-[#FFFFFF] min-h-[90vh] md:min-h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
         <div className="h-[15%] md:h-[10%] w-full flex justify-center items-center">
           <p className="text-center lg:text-left text-[30px] text-[#001145] md:text-[47px] md:leading-[56px] font-semibold">
             Seamless Delivery Services
@@ -134,7 +146,61 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="bg-[#FFFFFF] mx-3 min-h-[90vh] md:min-h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
+        <div className="h-[15%] md:h-[10%] w-full flex justify-center items-center">
+          <p className="text-center lg:text-left text-[30px] text-[#001145] md:text-[47px] md:leading-[56px] font-semibold">
+            Seamless Delivery Services
+          </p>
+        </div>
+        <div className="bg-[#FFFFFF] h-[80%] w-full">
+          <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-4 xl:gap-8">
+            <div className="p-4">
+              <ServicesCard
+                headertext="E-Commerce Support"
+                text="We provide support to E-commerce businesses"
+                img="/shop.png"
+              />
+            </div>
+            <div className="p-4">
+              <ServicesCard
+                headertext="Express Delivery"
+                text="Need your package delivered swiftly? We got you"
+                img="/clock2.png"
+              />
+            </div>
+            <div className="p-4">
+              <ServicesCard
+                headertext="Supply Chain"
+                text="Want to deliver to more than one person? We can do that"
+                img="/truck-time.png"
+              />
+            </div>
+            <div className="p-4">
+              <ServicesCard
+                headertext="Scheduled Pickup"
+                text="You can pick up or send an item at a specific time"
+                img="/calendar.png"
+              />
+            </div>
+            <div className="p-4">
+              <ServicesCard
+                headertext="Distribution"
+                text="Efficient distribution of products to various locations"
+                img="/truck-fast2.png"
+              />
+            </div>
+            <div className="p-4">
+              <ServicesCard
+                headertext="Last Mile Delivery"
+                text="Efficient distribution of products to various locations"
+                img="/amico2.png"
+              />
+            </div>
+          </div>
+        </div>
       </div>
+
       <div className="bg-gradient-to-r from-[#001145] via-[#87874D] to-[#FFEF54] h-[80vh] md:h-[40vh] lg:h-[75vh] xl:h-[100vh] w-full flex flex-col md:flex-row">
         <div className="w-full h-[50%] md:w-[50%] md:h-full flex flex-col justify-center items-center">
           <div className="w-[90%] lg:w-[80%] xl:w-[85%] h-[65%] md:h-[60%] lg:h-[40%] flex flex-col justify-between">
