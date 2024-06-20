@@ -8,7 +8,6 @@ export const Footer = () => {
         <div className="flex flex-col items-center md:items-center md:flex-row justify-evenly bg-[#FFEF54] w-full h-[480px] md:h-[80%]">
           <div className="w-[85%] md:w-[20%] lg:w-[20%] h-[100px] md:h-full">
             <a className="inline-flex items-center h-full md:h-[50%] w-[30%] md:w-full" href="#">
-              {/* Replace img with Image from next/image */}
               <Image
                 src="/wakaboy2.png"
                 alt="Company Logo"
@@ -40,11 +39,10 @@ export const Footer = () => {
               <input type="text" className="text-[#001145] h-10 md:h-12 w-[85%] rounded-[8px] pl-5 text-xs md:text-sm mb-2 md:mb-4" placeholder="Input your email address" />
               <Waitlistbutton2 />
               <div className="w-[55%] md:w-[70%] lg:w-[60%] h-[20%] mt-4 flex justify-between items-center">
-                {/* Example of adding alt text for each image */}
-                <a href=""><img src="/fb.svg" alt="Facebook" className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>
-                <a href=""><img src="/ig.svg" alt="Instagram" className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>
-                <a href=""><img src="/in.svg" alt="LinkedIn" className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>
-                <a href=""><img src="/x.svg" alt="Other Social Media" className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>
+                <a href=""><Image src="/fb.svg" alt="Facebook" width={32} height={32} className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>
+                <a href=""><Image src="/ig.svg" alt="Instagram" width={32} height={32} className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>
+                <a href=""><Image src="/in.svg" alt="LinkedIn" width={32} height={32} className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>
+                <a href=""><Image src="/x.svg" alt="Other Social Media" width={32} height={32} className="w-[24px] lg:w-[32px] lg:h-[32px] h-[24px]" /></a>
               </div>
             </div>
           </div>
