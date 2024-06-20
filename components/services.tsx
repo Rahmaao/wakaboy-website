@@ -4,7 +4,7 @@ const ServicesCard = ({ headertext, text, img }) => {
   return (
     // <a href="/delivery_services" className="bg-lime-500">
     <a href="/delivery_services"
-      className="hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] w-[150px] md:w-[90%] lg:w-[85%] xl:w-[386px] h-[180px] md:h-[250px] lg:h-[286px] md:pt-5 bg-center bg-no-repeat flex flex-col justify-evenly rounded-lg border border-[#0000001A] items-center bg-[white]"    >
+      className="hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] w-[150px] md:w-[90%] lg:w-[85%] xl:w-[90%] h-[180px] md:h-[250px] lg:h-[286px] md:pt-5 bg-center bg-no-repeat flex flex-col justify-evenly rounded-lg border border-[#0000001A] items-center bg-[white]"    >
       <div
         className="h-[20%] md:h-[25%] w-[25%] md:w-[30%] lg:w-[25%] xl:w-[25%] rounded-lg bg-contain bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${img})` }}

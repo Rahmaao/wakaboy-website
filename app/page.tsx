@@ -153,7 +153,7 @@ export default function Home() {
             Seamless Delivery Services
           </p>
         </div>
-        <div className="bg-[#FFFFFF] h-[80%] w-full my-5 mx-2 lg:mx-7">
+        <div className="bg-[#FFFFFF] h-[80%] w-full my-5 mx-2 lg:mx-5">
           <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-4 xl:gap-8">
             {/* <div className="bg-slate-500"> */}
               <ServicesCard
