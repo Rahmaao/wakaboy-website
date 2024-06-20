@@ -22,7 +22,7 @@ export default function AboutPage() {
             <p className="w-[95%] text-[#010417] text-left md:text-[15px] lg:text-[18px] xl:text-[21px]">
               Wakaboy Express was founded by Ejike Chukwunyerenwa in 2019 with the aim of solving the struggle that small businesses face in finding reliable logistics partners. We aim to bridge that gap by providing trustworthy and efficient logistics solutions to businesses of all sizes.
               <br /> <br />
-              At Wakaboy Express, we are committed to excellence and adaptability, providing tailored solutions that enhance operational efficiency and customer satisfaction. Whether you're a small business or a larger enterprise, our innovative logistics support is designed to help your business thrive. Trust Wakaboy Express to deliver the logistical reliability your business needs to succeed.
+              At Wakaboy Express, we are committed to excellence and adaptability, providing tailored solutions that enhance operational efficiency and customer satisfaction. Whether you&apos;re a small business or a larger enterprise, our innovative logistics support is designed to help your business thrive. Trust Wakaboy Express to deliver the logistical reliability your business needs to succeed.
             </p>
           </div>
           <div className="w-[40%] h-full flex justify-end items-center">
@@ -53,7 +53,7 @@ export default function AboutPage() {
               />
             </div>
             <p className="text-[#001145]">
-              We aim to bridge that gap by providing trustworthy and efficient logistics solutions to businesses of all sizes. <br /> <br /> At Wakaboy Express, we are committed to excellence and adaptability, providing tailored solutions that enhance operational efficiency and customer satisfaction. Whether you're a small business or a larger enterprise, our innovative logistics support is designed to help your business thrive. Trust Wakaboy Express to deliver the logistical reliability your business needs to succeed.
+              We aim to bridge that gap by providing trustworthy and efficient logistics solutions to businesses of all sizes. <br /> <br /> At Wakaboy Express, we are committed to excellence and adaptability, providing tailored solutions that enhance operational efficiency and customer satisfaction. Whether you&apos;re a small business or a larger enterprise, our innovative logistics support is designed to help your business thrive. Trust Wakaboy Express to deliver the logistical reliability your business needs to succeed.
             </p>
           </div>
         </div>
