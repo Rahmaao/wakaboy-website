@@ -94,59 +94,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="bg-[#FFFFFF] min-h-[90vh] md:min-h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
-        <div className="h-[15%] md:h-[10%] w-full flex justify-center items-center">
-          <p className="text-center lg:text-left text-[30px] text-[#001145] md:text-[47px] md:leading-[56px] font-semibold">
-            Seamless Delivery Services
-          </p>
-        </div>
-        <div className="bg-[#FFFFFF] h-[80%] w-full">
-          <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:gap-4 xl:pl-8">
-            <div className="p-4">
-              <ServicesCard
-                headertext="E-Commerce Support"
-                text="We provide support to E-commerce businesses"
-                img="/shop.png"
-              />
-            </div>
-            <div className="p-4">
-              <ServicesCard
-                headertext="Express Delivery"
-                text="Need your package delivered swiftly? We got you"
-                img="/clock2.png"
-              />
-            </div>
-            <div className="p-4">
-              <ServicesCard
-                headertext="Supply Chain"
-                text="Want to deliver to more than one person? We can do that"
-                img="/truck-time.png"
-              />
-            </div>
-            <div className="p-4">
-              <ServicesCard
-                headertext="Scheduled Pickup"
-                text="You can pick up or send an item at a specific time"
-                img="/calendar.png"
-              />
-            </div>
-            <div className="p-4">
-              <ServicesCard
-                headertext="Distribution"
-                text="Efficient distribution of products to various locations"
-                img="/truck-fast2.png"
-              />
-            </div>
-            <div className="p-4">
-              <ServicesCard
-                headertext="Last Mile Delivery"
-                text="Efficient distribution of products to various locations"
-                img="/amico2.png"
-              />
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="bg-[#FFFFFF] min-h-[90vh] md:min-h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
         <div className="h-[15%] md:h-[10%] w-full flex justify-center items-center">
           <p className="text-center lg:text-left text-[30px] text-[#001145] md:text-[47px] md:leading-[56px] font-semibold">
@@ -155,48 +102,36 @@ export default function Home() {
         </div>
         <div className="bg-[#FFFFFF] h-[80%] w-full my-5 mx-2 lg:mx-5">
           <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-4 xl:gap-8">
-            {/* <div className="bg-slate-500"> */}
               <ServicesCard
                 headertext="E-Commerce Support"
                 text="We provide support to E-commerce businesses"
                 img="/shop.png"
               />
-            {/* </div> */}
-            {/* <div className="p-4"> */}
               <ServicesCard
                 headertext="Express Delivery"
                 text="Need your package delivered swiftly? We got you"
                 img="/clock2.png"
               />
-            {/* </div> */}
-            {/* <div className="p-4"> */}
               <ServicesCard
                 headertext="Supply Chain"
                 text="Want to deliver to more than one person? We can do that"
                 img="/truck-time.png"
               />
-            {/* </div> */}
-            {/* <div className="p-4"> */}
               <ServicesCard
                 headertext="Scheduled Pickup"
                 text="You can pick up or send an item at a specific time"
                 img="/calendar.png"
               />
-            {/* </div> */}
-            {/* <div className="p-4"> */}
               <ServicesCard
                 headertext="Distribution"
                 text="Efficient distribution of products to various locations"
                 img="/truck-fast2.png"
               />
-            {/* </div> */}
-            {/* <div className="p-4"> */}
               <ServicesCard
                 headertext="Last Mile Delivery"
                 text="Efficient distribution of products to various locations"
                 img="/amico2.png"
               />
-            {/* </div> */}
           </div>
         </div>
       </div>
