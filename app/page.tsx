@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <section id="home" className="bg-[#FFFFFF] w-full min-h-[100vh]">
       <div className="bg-[#001145] h-[90vh] md:h-[50vh] lg:h-[100vh] lg:pl-20 flex justify-center lg:justify-start items-center w-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/hero.svg')" }}>
-        <div className="flex flex-col justify-between w-[90%] md:w-[80%] lg:w-[65%] xl:w-[45%] h-[45%] md:h-[60%] lg:h-[45%]">
-          <p className="text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
+        <div className="flex flex-col justify-between bg-purple-400 w-[90%] md:w-[80%] lg:w-[65%] xl:w-[45%] h-[45%] md:h-[60%] lg:h-[45%]">
+          <p className="text-center bg-red-400 lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
             Streamline Your Logistics with Wakaboy Express
           </p>
           <p className="text-center lg:text-left text-[14px] md:text-[16px]">

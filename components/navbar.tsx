@@ -34,11 +34,7 @@ export const Navbar = () => {
           className="inline-flex items-center lg:pl-0 h-[90%] w-[50%] md:w-[30%] lg:w-[15%]"
           href="/"
         >
-          {/* <img
-            src="/wakaboy.png"
-            alt="Logo"
-            className="object-cover md:w-[300px] md:h-[300px] lg:w-[250px] lg:h-[250px] xl:w-[300px] xl:h-[300px]"
-          /> */}
+         
           <Image
             src="/wakaboy.png"
             alt="Logo"
