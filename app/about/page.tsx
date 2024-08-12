@@ -1,9 +1,12 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
     <section id="about" className="bg-[#FFFFFF] w-full min-h-[100vh] pb-10">
-      <div className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh] flex justify-center items-center w-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/about.svg')" }}>
+      <div
+        className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh] flex justify-center items-center w-full bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/about.svg')" }}
+      >
         <div className="w-[80%] h-[40%] md:min-w-[400px] md:h-[125px] flex flex-col justify-around items-center">
           <p className="text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
             About Us
@@ -20,9 +23,12 @@ export default function AboutPage() {
               Who are we?
             </p>
             <p className="w-[95%] text-[#010417] text-left md:text-[15px] lg:text-[18px] xl:text-[21px]">
-              Wakaboy Express was founded by Ejike Chukwunyerenwa in 2019 with the aim of solving the struggle that small businesses face in finding reliable logistics partners. We aim to bridge that gap by providing trustworthy and efficient logistics solutions to businesses of all sizes.
+              At Wakaboy Express, we're committed to bridging the gap between
+              businesses and consumers with fast, reliable, and affordable
+              delivery services. Based in Nigeria, we provide tailored solutions
+              that cater to the unique needs of our diverse clientele.
               <br /> <br />
-              At Wakaboy Express, we are committed to excellence and adaptability, providing tailored solutions that enhance operational efficiency and customer satisfaction. Whether you&apos;re a small business or a larger enterprise, our innovative logistics support is designed to help your business thrive. Trust Wakaboy Express to deliver the logistical reliability your business needs to succeed.
+              Founded in 2020 amidst the bustling markets of Lagos, Wakaboy Express was created to address the urgent need for dependable delivery services. Our founders, seasoned professionals with deep roots in logistics and technology, were inspired by personal experiences of service inconsistencies and market gaps. Recognizing the potential for a logistics service that truly understands local challenges, Wakaboy Express was born.
             </p>
           </div>
           <div className="w-[40%] h-full flex justify-end items-center">
@@ -41,7 +47,11 @@ export default function AboutPage() {
               <div className="text-[#001145]">
                 <p className="text-2xl font-semibold pb-10">Who are we?</p>
                 <p>
-                  Wakaboy Express was founded by Ejike Chukwunyerenwa in 2019 with the aim of solving the struggle that small businesses face in finding reliable logistics partners.
+                  At Wakaboy Express, we're committed to bridging the gap
+                  between businesses and consumers with fast, reliable, and
+                  affordable delivery services. Based in Nigeria, we provide
+                  tailored solutions that cater to the unique needs of our
+                  diverse clientele.
                 </p>
               </div>
               <Image
@@ -49,34 +59,49 @@ export default function AboutPage() {
                 alt="Description"
                 width={500}
                 height={500}
-                className="ml-4 rounded-lg pt-10"
+                className="ml-4 rounded-lg mt-20"
+                style={{ width: "auto", height: "100%" }}
               />
             </div>
             <p className="text-[#001145]">
-              We aim to bridge that gap by providing trustworthy and efficient logistics solutions to businesses of all sizes. <br /> <br /> At Wakaboy Express, we are committed to excellence and adaptability, providing tailored solutions that enhance operational efficiency and customer satisfaction. Whether you&apos;re a small business or a larger enterprise, our innovative logistics support is designed to help your business thrive. Trust Wakaboy Express to deliver the logistical reliability your business needs to succeed.
+            Founded in 2020 amidst the bustling markets of Lagos, Wakaboy Express was created to address the urgent need for dependable delivery services. Our founders, seasoned professionals with deep roots in logistics and technology, were inspired by personal experiences of service inconsistencies and market gaps. Recognizing the potential for a logistics service that truly understands local challenges, Wakaboy Express was born.
             </p>
           </div>
         </div>
-        <div className="h-[35vh] md:h-[20vh] lg:h-[30vh] flex flex-col justify-evenly items-center">
-          <p className="text-center text-[#001145] text-[30px] md:text-[40px] xl:text-[47px] md:leading-[56px] font-semibold">
-            Our Vision
-          </p>
-          <p className="hidden md:block w-[95%] text-[#010417] lg:leading-[28px] text-center md:text-[15px] lg:text-[18px] xl:text-[21px]">
-            To revolutionize last-mile delivery in Lagos, becoming the trusted partner for businesses, and serving new standards of speed, reliability, and sustainability.
-          </p>
-          <p className="block md:hidden w-[95%] text-[#010417] text-center">
-            To revolutionize last-mile delivery in Lagos, becoming the trusted partner for businesses, and serving new standards of speed, reliability, and sustainability.
-          </p>
-        </div>
-        <div className="h-[35vh] md:h-[20vh] lg:h-[30vh] flex flex-col justify-evenly items-center">
+        <div className="min-h-[35vh] mb-8 lg:my-8 md:min-h-[20vh] lg:h-[30vh] flex flex-col justify-evenly items-center">
           <p className="text-center text-[#001145] text-[30px] md:text-[40px] xl:text-[47px] md:leading-[56px] font-semibold">
             Our Mission
           </p>
           <p className="hidden md:block w-[95%] text-[#010417] lg:leading-[28px] text-center md:text-[15px] lg:text-[18px] xl:text-[21px]">
-            Our mission is to provide efficient and eco-friendly last-mile delivery solutions that enhance the lives of Lagosians and empower businesses to thrive
+            At Wakaboy Express, our mission is to empower businesses and enrich
+            communities across Nigeria by providing dependable and efficient
+            delivery solutions. We aim to simplify logistics with a
+            customer-first approach, ensuring that every package is handled with
+            utmost care and precision. Our commitment extends beyond mere
+            deliveries; we strive to enhance the operational capabilities of our
+            clients, helping them thrive in an increasingly competitive
+            marketplace.{" "}
           </p>
           <p className="block md:hidden w-[95%] text-[#010417] text-center">
-            Our mission is to provide efficient and eco-friendly last-mile delivery solutions that enhance the lives of Lagosians and empower businesses to thrive
+            At Wakaboy Express, our mission is to empower businesses and enrich
+            communities across Nigeria by providing dependable and efficient
+            delivery solutions. We aim to simplify logistics with a
+            customer-first approach, ensuring that every package is handled with
+            utmost care and precision. Our commitment extends beyond mere
+            deliveries; we strive to enhance the operational capabilities of our
+            clients, helping them thrive in an increasingly competitive
+            marketplace.
+          </p>
+        </div>
+        <div className="min-h-[35vh] md:min-h-[20vh] lg:h-[30vh] flex flex-col justify-evenly items-center">
+          <p className="text-center text-[#001145] text-[30px] md:text-[40px] xl:text-[47px] md:leading-[56px] font-semibold">
+            Our Vision
+          </p>
+          <p className="hidden md:block w-[95%] text-[#010417] lg:leading-[28px] text-center md:text-[15px] lg:text-[18px] xl:text-[21px]">
+          Our vision is to set new benchmarks in the logistics industry of Nigeria and beyond. We are driven to innovate, leading with sustainable and technology-driven solutions that anticipate and fulfill the evolving needs of our diverse clientele. By 2030, we aim to expand our reach across West Africa, offering an unrivaled logistics network that supports businesses and stimulates local economies.
+          </p>
+          <p className="block md:hidden w-[95%] text-[#010417] text-center">
+          Our vision is to set new benchmarks in the logistics industry of Nigeria and beyond. We are driven to innovate, leading with sustainable and technology-driven solutions that anticipate and fulfill the evolving needs of our diverse clientele. By 2030, we aim to expand our reach across West Africa, offering an unrivaled logistics network that supports businesses and stimulates local economies.
           </p>
         </div>
       </div>

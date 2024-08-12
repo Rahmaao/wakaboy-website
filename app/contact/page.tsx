@@ -10,24 +10,20 @@ export default function ContactPage() {
             Contact Us
           </p>
           <p className="text-center lg:text-left text-[16px] md:text-[18px]">
-            We want to hear from you
+          We&apos;re Here to Help!
           </p>
         </div>
       </div>
       <div className="h-[140vh] md:h-[95vh] lg:h-[135vh] flex flex-col justify-around py-5 md:py-10">
         <div className="w-full h-[15%] md:h-[20%] lg:h-[25%] flex flex-col justify-evenly items-center">
-          <p className="text-center text-[#001145] text-[25px] md:text-[40px] xl:text-[47px] md:leading-[56px] font-semibold">
-            We are here to serve You!
+          <p className="text-center text-[#001145] text-[25px] md:text-[40px] xl:text-[47px] mb-2 md:leading-[56px] font-semibold">
+          Your Satisfaction is Our Priority!
           </p>
           <p className="hidden md:block w-[95%] text-[#010417] lg:leading-[28px] text-center md:text-[15px] lg:text-[18px] xl:text-[21px]">
-            We&apos;d love to hear from you! Whether you have a question, need
-            assistance, <br /> or want to learn more about our services, our
-            team is here to help{" "}
+          Whether you have questions about our services, need assistance with an existing order, or want to discuss bespoke logistics solutions, our dedicated team is ready to assist you.
           </p>
           <p className="block md:hidden w-[95%] text-[#010417] text-center">
-            We&apos;d love to hear from you! Whether you have a question, need
-            assistance, or want to learn more about our services, our team is
-            here to help{" "}
+          Whether you have questions about our services, need assistance with an existing order, or want to discuss bespoke logistics solutions, our dedicated team is ready to assist you.
           </p>
         </div>
         <div className=" w-full h-[80%] md:h-[65%] flex justify-center items-center">

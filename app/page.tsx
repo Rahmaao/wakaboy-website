@@ -14,15 +14,14 @@ export default function Home() {
       >
         <div className="flex flex-col justify-between w-[90%] md:w-[80%] lg:w-[65%] xl:w-[50%] h-[45%] md:h-[60%] lg:h-[45%]">
           <p className="hidden md:block text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
-            Streamline Your Logistics <br /> with Wakaboy Express
+            Right on Time, <br /> Every Time
           </p>
           <p className="block md:hidden text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
-            Streamline Your Logistics with Wakaboy Express
+            Right on Time, Every Time
           </p>
           <p className="text-center lg:text-left text-[14px] md:text-[16px]">
-            We specialize in providing efficient solutions for all your supply
-            chain needs. From transportation to warehousing, we&apos;ve got you
-            covered.
+            Sign up now for exclusive early access to our mobile app and special
+            offers!
           </p>
           <div className="w-full h-[50px] md:h-[64px] flex">
             <input
@@ -36,7 +35,7 @@ export default function Home() {
       </div>
       <div className="bg-[#001145] h-[35vh] md:h-[20vh] lg:h-[30vh] w-full md:flex">
         <div className="w-full md:w-[50%] h-[50%] md:h-full flex justify-around items-center">
-          <div className="w-[40%] md:w-[48%] lg:w-[40%] xl:w-[30%] h-[90%] md:h-[75%] flex flex-col justify-evenly items-center">
+          <div className="w-[40%] md:w-[48%] lg:w-[40%] xl:w-[35%] h-[90%] md:h-[75%] flex flex-col justify-evenly items-center">
             <Image
               src="/clock.png"
               alt="Clock icon"
@@ -45,7 +44,7 @@ export default function Home() {
               style={{ width: "40px", height: "40px" }}
             />
             <p className="text-[15px] md:text-lg xl:text-2xl text-center">
-              24/7 Customer <br /> Service
+              Prompt Customer <br /> Service
             </p>
           </div>
           <div className="w-[40%] md:w-[48%] lg:w-[40%] xl:w-[30%] h-[90%] md:h-[75%] flex flex-col justify-evenly items-center">
@@ -57,7 +56,7 @@ export default function Home() {
               style={{ width: "40px", height: "40px" }}
             />
             <p className="text-[15px] md:text-lg xl:text-2xl text-center">
-              99% On-Time <br /> Delivery Rate
+            Timely Delivery<br />Track Record 
             </p>
           </div>
           {/* <div className="w-[40%] md:w-[48%] lg:w-[40%] xl:w-[30%] h-[90%] md:h-[75%] flex flex-col justify-evenly items-center">
@@ -101,37 +100,28 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-[#FFFFFF] h-[80%] w-full my-5 mx-2 lg:mx-5">
-          <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-4 xl:gap-8">
-              <ServicesCard
-                headertext="E-Commerce Support"
-                text="We provide support to E-commerce businesses"
-                img="/shop.png"
-              />
-              <ServicesCard
-                headertext="Express Delivery"
-                text="Need your package delivered swiftly? We got you"
-                img="/clock2.png"
-              />
-              <ServicesCard
-                headertext="Supply Chain"
-                text="Want to deliver to more than one person? We can do that"
-                img="/truck-time.png"
-              />
-              <ServicesCard
-                headertext="Scheduled Pickup"
-                text="You can pick up or send an item at a specific time"
-                img="/calendar.png"
-              />
-              <ServicesCard
-                headertext="Distribution"
-                text="Efficient distribution of products to various locations"
-                img="/truck-fast2.png"
-              />
-              <ServicesCard
-                headertext="Last Mile Delivery"
-                text="Efficient distribution of products to various locations"
-                img="/amico2.png"
-              />
+          <div className="w-full grid grid-cols-2 lg:grid-cols-2 gap-4 xl:gap-8">
+            <ServicesCard
+              headertext="Same-Day Delivery"
+              text="Need it fast? Count on us for same-day delivery within Lagos."
+              img="/clock2.png"
+            />
+            <ServicesCard
+              headertext="Business Solutions"
+              text="Logistics solutions for businesses of all sizes"
+              img="/shop.png"
+            />
+
+            <ServicesCard
+              headertext="Scheduled Pickup"
+              text="Plan your deliveries according to your timetable"
+              img="/calendar.png"
+            />
+            <ServicesCard
+              headertext="Custom Solutions"
+              text="Have unique delivery needs?"
+              img="/amico2.png"
+            />
           </div>
         </div>
       </div>
@@ -153,8 +143,23 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full h-[50%] md:w-[50%] md:h-full flex justify-center items-center">
-          <div className="rounded-full w-[255px] md:w-[325px] lg:w-[485px] xl:w-[585px] h-[255px] md:h-[325px] lg:h-[485px] xl:h-[585px] bg-white">
-            {/* Placeholder or content for the circle */}
+          <div className="flex justify-between w-[255px] md:w-[325px] lg:w-[485px] xl:w-[585px] h-[255px] md:h-[325px] lg:h-[485px] xl:h-[585px]">
+            <div>
+              <Image
+                src="/Mockup.png"
+                alt="Truck icon"
+                width={254}
+                height={400}
+              />
+            </div>
+            <div className="flex items-end">
+              <Image
+                src="/Mockup2.png"
+                alt="Truck icon"
+                width={254}
+                height={400}
+              />
+            </div>
           </div>
         </div>
       </div>

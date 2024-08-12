@@ -2,7 +2,7 @@ export default function AboutPage() {
   return (
     <section
       id="about"
-      className="bg-[#FFFFFF] w-full min-h-[200vh] md:min-h-[135vh] lg:min-h-[250vh]"
+      className="bg-[#FFFFFF] w-full min-h-[150vh] md:min-h-[135vh] lg:min-h-[200vh]"
     >
       <div
         className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh] flex justify-center items-center w-full bg-cover bg-center bg-no-repeat"
@@ -28,19 +28,19 @@ export default function AboutPage() {
             <div className="bg-[#FFFFFF] xl:w-[85%] p-5">
               <div className="pb-3">
                 <p className="font-bold text-lg md:text-xl lg:text-2xl text-[#000000]">
-                  E-Commerce Support
+                Same-Day Delivery
                 </p>
               </div>
               <div className="pb-5">
                 <p className="text-sm md:text-base lg:text-lg text-[#000000]">
-                  As a leading tech-driven logistics company, we understand and
+                Need it delivered today? Our same-day service ensures that your package reaches its destination swiftly within the same day. Ideal for urgent documents, last-minute gifts, or any item that just can’t wait.                  {/* As a leading tech-driven logistics company, we understand and
                   meet the unique demands of E-commerce. We also understand that
                   effective and reliable logistics are essential for successful
                   E-commerce. <br />
                   <br />
                   Whether you&apos;re an online retailer, B2B, B2C, C2C, or
                   multichannel seller, we provide customized delivery solutions
-                  to help you achieve your goals.
+                  to help you achieve your goals. */}
                 </p>
               </div>
               <div>
@@ -56,12 +56,13 @@ export default function AboutPage() {
             <div className="bg-[#FFFFFF] xl:w-[85%] p-5">
               <div className="pb-3">
                 <p className="font-bold text-lg md:text-xl lg:text-2xl text-[#000000]">
-                  Express Delivery
+                Scheduled Delivery
                 </p>
               </div>
               <div className="pb-5">
                 <p className="text-sm md:text-base lg:text-lg text-[#000000]">
-                  Experience the convenience of our fast and reliable express
+                Plan your deliveries according to your timetable with our flexible scheduled delivery service. Perfect for businesses managing regular shipments or customers who prefer to receive items at a specific time.
+                  {/* Experience the convenience of our fast and reliable express
                   delivery services. Designed for customers who need their
                   packages delivered quickly, we offer both same-day and
                   next-day delivery options. <br />
@@ -69,7 +70,7 @@ export default function AboutPage() {
                   Our efficient logistics network ensures that your parcels
                   reach their destination on time, every time. Trust us to
                   provide a seamless and speedy delivery experience that meets
-                  your urgent needs.
+                  your urgent needs. */}
                 </p>
               </div>
               <div>
@@ -85,15 +86,16 @@ export default function AboutPage() {
             <div className="bg-[#FFFFFF] xl:w-[85%] p-5">
               <div className="pb-3">
                 <p className="font-bold text-lg md:text-xl lg:text-2xl text-[#000000]">
-                  Supply Chain Management
+                Business Logistics Solutions
                 </p>
               </div>
               <div className="pb-5">
                 <p className="text-sm md:text-base lg:text-lg text-[#000000]">
-                  We provide end-to-end supply chain management solutions,
+                We provide comprehensive logistics solutions tailored to business needs, ensuring that your operations run smoothly, and your customers remain happy. From bulk shipments to inventory management, we handle it all.
+                  {/* We provide end-to-end supply chain management solutions,
                   including demand planning, procurement, logistics
                   coordination, and inventory optimization, to streamline
-                  operations and improve efficiency for B2B clients.
+                  operations and improve efficiency for B2B clients. */}
                 </p>
               </div>
               <div>
@@ -109,16 +111,17 @@ export default function AboutPage() {
             <div className="bg-[#FFFFFF] xl:w-[85%] p-5">
               <div className="pb-3">
                 <p className="font-bold text-lg md:text-xl lg:text-2xl text-[#000000]">
-                  Scheduled Pickup
+                Custom Solutions
                 </p>
               </div>
               <div className="pb-5">
                 <p className="text-sm md:text-base lg:text-lg text-[#000000]">
-                  Our scheduled pickup service offers convenient and reliable
+                Have unique delivery needs? Our custom solutions service allows us to work directly with you to create a delivery strategy that fits your specific requirements.
+                  {/* Our scheduled pickup service offers convenient and reliable
                   collection at a time that suits you. <br /> <br />
                   Whether for business or personal needs, our team will collect
                   your packages from your location and ensure prompt delivery.
-                  Simplify your logistics with our flexible pickup options.
+                  Simplify your logistics with our flexible pickup options. */}
                 </p>
               </div>
               <div>
@@ -130,7 +133,7 @@ export default function AboutPage() {
                 </a>
               </div>
             </div>
-            <div className="bg-[#FFFFFF] xl:w-[85%] p-5">
+            {/* <div className="bg-[#FFFFFF] xl:w-[85%] p-5">
               <div className="pb-3">
                 <p className="font-bold text-lg md:text-xl lg:text-2xl text-[#000000]">
                   Distribution
@@ -152,7 +155,7 @@ export default function AboutPage() {
                   Contact Us
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
