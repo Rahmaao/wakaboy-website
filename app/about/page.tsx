@@ -43,8 +43,8 @@ export default function AboutPage() {
         </div>
         <div className="min-h-[95vh] flex md:hidden justify-center items-center">
           <div className="py-10 px-3">
-            <div className="min-h-[30%] w-full flex">
-              <div className="text-[#001145]">
+            <div className="min-h-[30%] w-full flex items-start">
+              <div className="text-[#001145] flex-1">
                 <p className="text-2xl font-semibold pb-10">Who are we?</p>
                 <p>
                   At Wakaboy Express, we&apos;re committed to bridging the gap
@@ -54,17 +54,18 @@ export default function AboutPage() {
                   diverse clientele.
                 </p>
               </div>
-              <Image
-                src="/box.png"
-                alt="Description"
-                width={500}
-                height={500}
-                className="ml-4 rounded-lg mt-20 bg-purple-400"
-                // style={{ width: "auto", height: "100%" }}
-              />
+              <div className="ml-4 mt-20">
+                <Image
+                  src="/box.png"
+                  alt="Description"
+                  width={300}
+                  height={300}
+                  className="rounded-lg object-contain max-w-[150px] sm:max-w-[200px] w-full"
+                />
+              </div>
             </div>
-            <p className="text-[#001145]">
-            Founded in 2020 amidst the bustling markets of Lagos, Wakaboy Express was created to address the urgent need for dependable delivery services. Our founders, seasoned professionals with deep roots in logistics and technology, were inspired by personal experiences of service inconsistencies and market gaps. Recognizing the potential for a logistics service that truly understands local challenges, Wakaboy Express was born.
+            <p className="text-[#001145] mt-4">
+              Founded in 2020 amidst the bustling markets of Lagos, Wakaboy Express was created to address the urgent need for dependable delivery services. Our founders, seasoned professionals with deep roots in logistics and technology, were inspired by personal experiences of service inconsistencies and market gaps. Recognizing the potential for a logistics service that truly understands local challenges, Wakaboy Express was born.
             </p>
           </div>
         </div>
@@ -98,10 +99,10 @@ export default function AboutPage() {
             Our Vision
           </p>
           <p className="hidden md:block w-[95%] text-[#010417] lg:leading-[28px] text-center md:text-[15px] lg:text-[18px] xl:text-[21px]">
-          Our vision is to set new benchmarks in the logistics industry of Nigeria and beyond. We are driven to innovate, leading with sustainable and technology-driven solutions that anticipate and fulfill the evolving needs of our diverse clientele. By 2030, we aim to expand our reach across West Africa, offering an unrivaled logistics network that supports businesses and stimulates local economies.
+            Our vision is to set new benchmarks in the logistics industry of Nigeria and beyond. We are driven to innovate, leading with sustainable and technology-driven solutions that anticipate and fulfill the evolving needs of our diverse clientele. By 2030, we aim to expand our reach across West Africa, offering an unrivaled logistics network that supports businesses and stimulates local economies.
           </p>
           <p className="block md:hidden w-[95%] text-[#010417] text-center">
-          Our vision is to set new benchmarks in the logistics industry of Nigeria and beyond. We are driven to innovate, leading with sustainable and technology-driven solutions that anticipate and fulfill the evolving needs of our diverse clientele. By 2030, we aim to expand our reach across West Africa, offering an unrivaled logistics network that supports businesses and stimulates local economies.
+            Our vision is to set new benchmarks in the logistics industry of Nigeria and beyond. We are driven to innovate, leading with sustainable and technology-driven solutions that anticipate and fulfill the evolving needs of our diverse clientele. By 2030, we aim to expand our reach across West Africa, offering an unrivaled logistics network that supports businesses and stimulates local economies.
           </p>
         </div>
       </div>
