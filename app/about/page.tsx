@@ -23,7 +23,7 @@ export default function AboutPage() {
               Who are we?
             </p>
             <p className="w-[95%] text-[#010417] text-left md:text-[15px] lg:text-[18px] xl:text-[21px]">
-              At Wakaboy Express, we're committed to bridging the gap between
+              At Wakaboy Express, we&apos;re committed to bridging the gap between
               businesses and consumers with fast, reliable, and affordable
               delivery services. Based in Nigeria, we provide tailored solutions
               that cater to the unique needs of our diverse clientele.
@@ -47,7 +47,7 @@ export default function AboutPage() {
               <div className="text-[#001145]">
                 <p className="text-2xl font-semibold pb-10">Who are we?</p>
                 <p>
-                  At Wakaboy Express, we're committed to bridging the gap
+                  At Wakaboy Express, we&apos;re committed to bridging the gap
                   between businesses and consumers with fast, reliable, and
                   affordable delivery services. Based in Nigeria, we provide
                   tailored solutions that cater to the unique needs of our
