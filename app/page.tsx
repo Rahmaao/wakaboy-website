@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ServicesCard from "../components/services";
 import Waitlistbutton3 from "../components/waitlist_btn3";
+import WaitlistForm from "../components/waitlist-form";
 
 export default function Home() {
   return (
@@ -23,14 +24,8 @@ export default function Home() {
             Sign up now for exclusive early access to our mobile app and special
             offers!
           </p>
-          <div className="w-full h-[50px] md:h-[64px] flex">
-            <input
-              type="text"
-              placeholder="Input your email address"
-              className="text-[#001145] rounded-l-[8px] pl-5 text-[11px] md:text-[15px] w-[70%] h-full"
-            />
-            <Waitlistbutton3 />
-          </div>
+          
+          <WaitlistForm />
         </div>
       </div>
       <div className="bg-[#001145] h-[35vh] md:h-[20vh] lg:h-[30vh] w-full md:flex">
@@ -56,22 +51,11 @@ export default function Home() {
               style={{ width: "40px", height: "40px" }}
             />
             <p className="text-[15px] md:text-lg xl:text-2xl text-center">
-            Timely Delivery<br />Track Record 
+              Timely Delivery
+              <br />
+              Track Record
             </p>
           </div>
-          {/* <div className="w-[40%] md:w-[48%] lg:w-[40%] xl:w-[30%] h-[90%] md:h-[75%] flex flex-col justify-evenly items-center">
-            <div style={{ width: "40px", height: "40px" }}>
-              <Image
-                src="/star.png"
-                alt="Star icon"
-                layout="fill"
-                objectFit="contain"
-              />
-            </div>
-            <p className="text-[15px] md:text-lg xl:text-2xl text-center">
-              99% On-Time <br /> Delivery Rate
-            </p>
-          </div> */}
         </div>
         <div className="w-full md:w-[50%] h-[50%] md:h-full flex justify-around items-center">
           <div className="w-[40%] md:w-[48%] lg:w-[40%] xl:w-[30%] h-[90%] md:h-[75%] flex flex-col justify-evenly items-center">
@@ -132,14 +116,7 @@ export default function Home() {
             <p className="text-center md:text-left text-[30px] md:text-[35px] xl:text-[50px] xl:leading-[56px] font-semibold">
               Get notified when our app launches
             </p>
-            <div className="w-full h-[50px] md:h-[55px] xl:h-[64px] flex">
-              <input
-                type="text"
-                placeholder="Input your email address"
-                className="text-[#001145] rounded-l-[8px] pl-5 text-[11px] md:text-[15px] w-[70%] h-full"
-              />
-              <Waitlistbutton3 />
-            </div>
+            <WaitlistForm />
           </div>
         </div>
         <div className="w-full h-[50%] md:w-[50%] md:h-full flex justify-center items-center">

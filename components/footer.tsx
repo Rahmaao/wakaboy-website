@@ -1,3 +1,4 @@
+import WaitlistForm2 from "./waitlist-form2";
 import Waitlistbutton2 from "./waitlist_btn2";
 import Image from "next/image"; // Import Image from next/image
 
@@ -21,7 +22,7 @@ export const Footer = () => {
             </a>
           </div>
           <div className="w-[85%] md:w-[35%] xl:w-[30%] h-[180px] md:h-full flex items-center">
-            <div className="w-[35%] h-full md:h-[80%] flex flex-col">
+            <div className="w-[32%] md:w-[35%] h-full md:h-[80%] flex flex-col">
               <p className="text-[#001145] font-semibold md:text-[20px] pb-2 md:pb-4">
                 Quick Links
               </p>
@@ -44,7 +45,7 @@ export const Footer = () => {
                 Contact
               </a>
             </div>
-            <div className="w-[65%] h-full md:h-[80%] flex flex-col">
+            <div className="w-[68%] md:w-[65%] h-full md:h-[80%] flex flex-col">
               <p className="text-[#001145] font-semibold md:text-[20px] pb-2 md:pb-4">
                 Contact Us
               </p>
@@ -64,7 +65,7 @@ export const Footer = () => {
               </a>
               <a
                 className="text-[#001145] text-sm lg:text-[16px] mb-2 pb-1 md:pb-2 flex items-center"
-                href="https://wa.me/2347088124733"
+                href="mailto:wakaboyexpress@gmail.com"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -135,12 +136,7 @@ export const Footer = () => {
               <p className="text-[#001145] font-semibold md:text-[20px] pb-4">
                 Newsletter Signup
               </p>
-              <input
-                type="text"
-                className="text-[#001145] h-10 md:h-12 w-[85%] rounded-[8px] pl-5 text-xs md:text-sm mb-2 md:mb-4"
-                placeholder="Input your email address"
-              />
-              <Waitlistbutton2 />
+              <WaitlistForm2 />
               <div className="w-[55%] md:w-[70%] lg:w-[60%] h-[20%] mt-4 flex justify-between items-center">
                 <a href="">
                   <Image
