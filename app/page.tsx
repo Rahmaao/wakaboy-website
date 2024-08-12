@@ -114,7 +114,7 @@ export default function Home() {
         <div className="w-full h-[50%] md:w-[50%] md:h-full flex flex-col justify-center items-center">
           <div className="w-[90%] lg:w-[80%] xl:w-[85%] h-[65%] md:h-[60%] lg:h-[40%] flex flex-col justify-between">
             <p className="text-center md:text-left text-[30px] md:text-[35px] xl:text-[50px] xl:leading-[56px] font-semibold">
-              Get notified when our app launches
+            Early Access to Our Mobile App
             </p>
             <WaitlistForm />
           </div>
