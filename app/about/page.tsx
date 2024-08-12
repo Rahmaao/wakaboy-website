@@ -33,7 +33,7 @@ export default function AboutPage() {
           </div>
           <div className="w-[40%] h-full flex justify-end items-center">
             <Image
-              src="/rectangle.png"
+              src="/rectangle.svg"
               alt=""
               width={500}
               height={300}
@@ -59,7 +59,7 @@ export default function AboutPage() {
                 alt="Description"
                 width={500}
                 height={500}
-                className="ml-4 rounded-lg mt-20"
+                className="ml-4 rounded-lg mt-20 bg-purple-400"
                 // style={{ width: "auto", height: "100%" }}
               />
             </div>
