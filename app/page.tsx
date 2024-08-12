@@ -13,7 +13,7 @@ export default function Home() {
         className="bg-[#001145] h-[90vh] md:h-[50vh] lg:h-[100vh] lg:pl-20 flex justify-center lg:justify-start items-center w-full bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/hero.svg')" }}
       >
-        <div className="flex flex-col justify-between w-[90%] md:w-[80%] lg:w-[65%] xl:w-[50%] h-[45%] md:h-[60%] lg:h-[45%]">
+        <div className="flex flex-col justify-between w-[90%] md:w-[80%] lg:w-[65%] xl:w-[50%] h-[25%] md:h-[50%] lg:h-[40%]">
           <p className="hidden md:block text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
             Right on Time, <br /> Every Time
           </p>
