@@ -13,12 +13,12 @@ export default function Home() {
         className="bg-[#001145] h-[90vh] md:h-[50vh] lg:h-[100vh] lg:pl-20 flex justify-center lg:justify-start items-center w-full bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/hero.svg')" }}
       >
-        <div className="flex flex-col justify-between w-[90%] md:w-[80%] lg:w-[65%] xl:w-[50%] h-[25%] md:h-[50%] lg:h-[40%]">
+        <div className="flex flex-col justify-between w-[90%] md:w-[80%] lg:w-[65%] xl:w-[50%] h-[35%] md:h-[50%] lg:h-[40%]">
           <p className="hidden md:block text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
             Right on Time, <br /> Every Time
           </p>
           <p className="block md:hidden text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
-            Right on Time, Every Time
+            Right on Time, <br /> Every Time
           </p>
           <p className="text-center lg:text-left text-[14px] md:text-[16px]">
             Sign up now for exclusive early access to our mobile app and special
