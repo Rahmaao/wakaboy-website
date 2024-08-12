@@ -15,6 +15,8 @@ const grotesque = CustomFont({
 export const metadata = {
   title: "Wakaboy Express",
   description: "Wakaboy Express – your trusted partner in seamless and efficient last-mile delivery solutions. Based in the heart of Nigeria, we're dedicated to bridging the gap between businesses and consumers with services that are not only reliable but revolutionize the way goods are transported within the region.",
+  image: "/favicon.png", 
+  url: "https://wakaboyexpress.com", 
 };
 
 export default function RootLayout({ children }) {
