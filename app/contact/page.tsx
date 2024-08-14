@@ -31,7 +31,6 @@ ${formData.message}
 You can reach me on ${formData.email} or ${formData.phoneNumber}
     `;
 
-    // Open the default mail app with the email template
     window.location.href = `mailto:wakaboyexpress@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
   };
 
@@ -41,7 +40,7 @@ You can reach me on ${formData.email} or ${formData.phoneNumber}
         className="bg-[#001145] h-[40vh] md:h-[50vh] lg:h-[100vh] flex justify-center items-center w-full bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/contact.svg')" }}
       >
-        <div className="w-[80%] h-[40%] md:min-w-[400px] md:h-[125px] flex flex-col justify-around items-center">
+        <div className="w-[80%] text-[#FAFAFA] h-[40%] md:min-w-[400px] md:h-[125px] flex flex-col justify-around items-center">
           <p className="text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
             Contact Us
           </p>

@@ -13,7 +13,7 @@ export default function Home() {
         className="bg-[#001145] h-[90vh] md:h-[50vh] lg:h-[100vh] lg:pl-20 flex justify-center lg:justify-start items-center w-full bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/hero.svg')" }}
       >
-        <div className="flex flex-col justify-between w-[90%] md:w-[80%] lg:w-[65%] xl:w-[50%] h-[35%] md:h-[50%] lg:h-[40%]">
+        <div className="flex text-[#FAFAFA] flex-col justify-between w-[90%] md:w-[80%] lg:w-[65%] xl:w-[50%] h-[35%] md:h-[50%] lg:h-[40%]">
           <p className="hidden md:block text-center lg:text-left text-[30px] md:text-[47px] md:leading-[56px] font-semibold">
             Right on Time, <br /> Every Time
           </p>
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-[#FFFFFF] min-h-[90vh] md:min-h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
+      <div className="bg-[#FFFFFF] min-h-[80vh] md:min-h-[70vh] lg:min-h-[120vh] w-full flex flex-col justify-around my-10">
         <div className="h-[15%] md:h-[10%] w-full flex justify-center items-center">
           <p className="text-center lg:text-left text-[30px] text-[#001145] md:text-[47px] md:leading-[56px] font-semibold">
             Seamless Delivery Services
